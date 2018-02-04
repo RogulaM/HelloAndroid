@@ -1,0 +1,16 @@
+<resources>
+    <dimen name="drawablePaddingMargin">16dp</dimen>
+    <dimen name="padding_mid">16dp</dimen>
+    <dimen name="padding_small">16dp</dimen>
+    <dimen name="padding_large">36dp</dimen>
+    <dimen name="udacity_left_padding">64dp</dimen>
+    <dimen name="drawablePaddingMargin_landscape">16dp</dimen>
+    <dimen name="padding_mid_landscape">24dp</dimen>
+    <dimen name="padding_small_landscape">16dp</dimen>
+    <dimen name="padding_large_landscape">36sp</dimen>
+    <dimen name="udacity_left_padding_landscape">64dp</dimen>
+    <dimen name="zero_layout_heigh">0dp</dimen>
+    <dimen name="zero_layout_weight">0dp</dimen>
+    <dimen name="weight_3">3</dimen>
+    <dimen name="weight_4">4</dimen>
+</resources>

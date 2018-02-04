@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        style="@style/ImageStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_layout_heigh"
+        android:layout_weight="@dimen/weight_4"
+        android:src="@drawable/background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero_layout_heigh"
+        android:layout_weight="@dimen/weight_3"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextViewPortrait1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/padding_small"
+            android:paddingLeft="@dimen/udacity_left_padding"
+            android:paddingTop="@dimen/padding_small"
+            android:text="@string/company_name" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="map"
+            android:drawableLeft="@drawable/location28dp"
+            android:drawablePadding="@dimen/padding_small"
+            android:paddingBottom="@dimen/padding_mid"
+            android:paddingLeft="@dimen/padding_mid"
+            android:text="@string/address" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="phone"
+            android:drawableLeft="@drawable/phone28dp"
+            android:drawablePadding="@dimen/padding_small"
+            android:paddingBottom="@dimen/padding_mid"
+            android:paddingLeft="@dimen/padding_mid"
+            android:text="@string/phone" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="email"
+            android:drawableLeft="@drawable/email28dp"
+            android:drawablePadding="@dimen/padding_small"
+            android:paddingBottom="@dimen/padding_mid"
+            android:paddingLeft="@dimen/padding_mid"
+            android:text="@string/email" />
+
+        <TextView
+            style="@style/TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:autoLink="web"
+            android:drawableLeft="@drawable/www28dp"
+            android:drawablePadding="@dimen/drawablePaddingMargin"
+            android:paddingBottom="@dimen/padding_mid"
+            android:paddingLeft="@dimen/padding_mid"
+            android:text="@string/www" />
+
+    </LinearLayout>
+
+</LinearLayout>
